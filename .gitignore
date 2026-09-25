@@ -1,0 +1,48 @@
+# Dependencies
+
+node_modules/
+frontend/node_modules/
+
+# Python
+
+backend/venv/
+**pycache**/
+*.py[cod]
+
+# Environment files
+
+.env
+.env.*
+!.env.example
+
+# Build files
+
+dist/
+frontend/dist/
+
+# IDE / Editor
+
+.vscode/
+.idea/
+
+# Operating system
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python cache
+
+.pytest_cache/
+.mypy_cache/
+
+# Local files
+
+*.tmp
+*.temp
