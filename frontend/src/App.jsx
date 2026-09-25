@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { Html5Qrcode } from "html5-qrcode";
 import "./App.css";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://openfoodfacts-xywd.onrender.com";
 const CAMERA_ELEMENT_ID = "camera-reader";
 
 function App() {
